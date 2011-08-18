@@ -1,0 +1,17 @@
+= Ruby/Rails/Web related gtksourceview styles.
+
+Part of {RubyBuntuGedit}[https://github.com/janlelis/rubybuntu-gedit]
+
+Designed for usage with {these language specs}[https://github.com/janlelis/rubybuntu-language-specs]
+
+== Setup
+=== as root
+
+   sudo cp *.xml /usr/share/gtksourceview-2.0/styles
+
+=== as non-root
+
+    mkdir -p ~/.local/share/gtksourceview-2.0/styles
+    cp *.xml ~/.local/share/gtksourceview-2.0/styles
+
+== J-_-L
