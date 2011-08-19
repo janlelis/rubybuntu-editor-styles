@@ -14,4 +14,8 @@ Designed for usage with {these language specs}[https://github.com/janlelis/rubyb
     mkdir -p ~/.local/share/gtksourceview-2.0/styles
     cp *.xml ~/.local/share/gtksourceview-2.0/styles
 
-== J-_-L
+== Contribute
+
+Feel free to add your own styles that use the new ruby language spec :).
+
+J-_-L
