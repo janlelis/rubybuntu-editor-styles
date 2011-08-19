@@ -69,7 +69,7 @@
   <style name="def:string"             foreground="#a0a0a0"/>
     <style name="ruby:string-delimiter"  foreground="#9f7979"/>
     <style name="def:special-char"       foreground="#dcdcdc"/>
-  <style name="def:character"          foreground="#a0a0a0"/><!-- question mark notation -->
+  <style name="def:character"          use-style="def:string"/><!-- question mark notation -->
 
     <style name="ruby:system"            foreground="#b5bb9d"/>
       <style name="ruby:system-delimiter"  foreground="#929b6d"/>
@@ -82,7 +82,7 @@
 
   <style name="def:number"             foreground="#6d9cbe"/>
     <style name="def:decimal"            foreground="#6d9cbe" bold="true"/><!-- integer -->
-    <style name="def:base-n-integer"     foreground="#6d9cbe" italic="true"/>
+    <style name="def:base-n-integer"     foreground="#6d9cbe" bold="true" italic="true"/>
 
   <style name="def:error"              strikethrough="true"/>
 
@@ -99,7 +99,6 @@
   <style name="def:reserved"           italic="true"/>
   <style name="def:statement"          foreground="#aa7b55"/>
   
-
   <!-- other ruby stuff-->
   <style name="erb:tag"                foreground="#ff592c"/>
   <style name="erb:output"             foreground="#ff342c"/>
