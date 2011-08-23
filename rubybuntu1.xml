@@ -102,8 +102,10 @@
   <!-- other ruby stuff-->
   <style name="erb:tag"                foreground="#ff592c"/>
   <style name="erb:output"             foreground="#ff342c"/>
-  
-  <style name="ruby-bundler-gemfile-lock:gem_name" foreground="#d8843f"/>
+
+  <style name="ruby-bundler-gemfile-lock:gem_name" foreground="#d8843f"/>  
+  <style name="ruby-bundler-gemfile-lock:gem_dependency_type" foreground="#edc268" bold="true"/>
+  <style name="ruby-bundler-gemfile-lock:gem_dependency_version" foreground="#edc268"/>
 
   <!-- non ruby -->
   <style name="xml:element-name"          foreground="#edc268"/><!-- html:tag -->
