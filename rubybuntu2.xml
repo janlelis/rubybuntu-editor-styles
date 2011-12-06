@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (C) 2011 Jan Lelis
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+-->
+
+<style-scheme id="rubybuntu2" _name="RubyBuntu Two" version="1.0">
+  <author>Jan Lelis</author>
+  <_description>RubyBuntu Two</_description>
+  
+  <!-- general -->
+  <style name="text"               foreground="#484848" background="#efefef"/>
+    <style name="current-line"                            background="#d8d8d8"/>
+    <style name="cursor"             foreground="#b9b9b9"/><!--#929292-->
+    <style name="selection"          foreground="#3c3c3c" background="#b9b9b9"/>
+    <style name="search-match"                            background="#2d2d2d"/>
+    <style name="draw-spaces"        foreground="#bbaaaa"/>
+    <style name="line-numbers"       foreground="#404040" background="#F7F6F6"/>  
+    <style name="bracket-match"      underline="true"/>
+    <style name="bracket-mismatch"   foreground="#000000" background="#ffffff"/><!-- how can i test this one? -->
+
+  <!-- ruby -->
+  <!-- please note: indention does not necessarily mean that there is a mapping --> 
+  <style name="def:type"               foreground="#4b4b4b"/>
+    <style name="ruby:method"            foreground="#4b4b4b"/><!-- of course, also applies to local variables -->
+      <style name="def:builtin"            foreground="#0e0e0e"/><!-- ruby:important-method -->
+  <style name="def:keyword"            foreground="#778c7a" bold="true"/>
+    <style name="ruby:syntax-char"       foreground="#333333"/>
+    <style name="def:operator"           foreground="#666666"/>
+    <style name="def:boolean"            foreground="#ee0000"/><!-- ruby:special-value -->
+      <style name="ruby:true"              foreground="#41b722" underline="true"/>
+      <style name="ruby:false"             foreground="#ee0000" underline="true"/>
+      <style name="ruby:nil"               foreground="#ee0000"/><!-- #ff3a3a -->
+      <style name="ruby:self"              foreground="#509c3b" bold="true"/>
+  <style name="ruby:collection"        foreground="#333333" bold="true"/>
+  <style name="def:function"           foreground="#333333" bold="true"/><!-- method definition -->
+
+  <style name="def:constant"           foreground="#4b4b4b" bold="true"/>
+    <style name="def:special-constant"   foreground="#0e0e0e" bold="true"/><!-- ruby:important-constant -->
+
+  <style name="def:identifier"         foreground="#41b722"/>
+    <style name="ruby:instance-variable" foreground="#41b722"/>
+    <style name="ruby:class-variable"    foreground="#41b722" strikethrough="true"/>
+    <style name="ruby:global-variable"   foreground="#41b722"/>
+      <style name="ruby:special-variable"  foreground="#41b722" bold="true"/>
+
+  <style name="def:comment"             foreground="#929292"/>
+    <style name="ruby:encoding-comment"   foreground="#a2a2a2" bold="true"/>
+    <style name="def:shebang"             foreground="#a2a2a2" bold="true"/>
+    <style name="def:note"                bold="true"/>
+    <style name="def:underlined"          underline="true"/>
+    <style name="def:doc-comment"         bold="true"/>
+      <style name="def:doc-comment-element" bold="true"/><!-- not used in ruby -->
+    
+  <style name="def:string"             foreground="#4a843b"/>
+    <style name="ruby:string-delimiter"  foreground="#375d2d"/>
+    <style name="def:special-char"       foreground="#6f9c5e"/>
+  <style name="def:character"          use-style="def:string"/><!-- question mark notation -->
+
+    <style name="ruby:system"            foreground="#737c4e"/>
+      <style name="ruby:system-delimiter"  foreground="#737c4e" bold="true"/>
+
+    <style name="ruby:symbol"            foreground="#4987b2"/>
+
+    <style name="ruby:regex"             foreground="#396c63"/>
+      <style name="ruby:regex-delimiter"   foreground="#425955" bold="true"/>
+      <style name="ruby:regex-options"     foreground="#425955"/>
+    
+  <style name="def:number"             foreground="#a56530"/>
+    <style name="def:decimal"            foreground="#d34921"/><!-- integer -->
+    <style name="def:base-n-integer"     foreground="#d34921"/>
+
+  <style name="def:error"              foreground="#ffffff" background="#ff0000"/>
+
+  <!-- maybe used in future
+    <style name="ruby:module"/>
+    <style name="ruby:begin"/>
+    <style name="ruby:loop"/>
+    <style name="ruby:block"/>
+  -->
+
+  <!-- currently not used in ruby -->
+  <style name="def:preprocessor"       foreground="#778c7a" bold="true"/><!-- xml:doctype -->
+  <style name="def:complex"            foreground="#a56530" italic="true"/>
+  <style name="def:reserved"           italic="true"/>
+  <style name="def:statement"          foreground="#666666"/>
+  
+  <!-- other ruby stuff-->
+  <style name="erb:tag"                foreground="#77ac7a"/>
+  <style name="erb:output"             foreground="#77ac7a" bold="true"/>
+
+  <!-- non ruby -->
+  <style name="xml:element-name"          foreground="#778c7a"/><!-- html:tag -->
+</style-scheme>
+
+<!-- J-_-L -->
+
