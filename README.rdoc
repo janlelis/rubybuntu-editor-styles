@@ -5,6 +5,9 @@ Part of {RubyBuntuGedit}[https://github.com/janlelis/rubybuntu-gedit]
 Designed for usage with {these language specs}[https://github.com/janlelis/rubybuntu-language-specs]
 
 == Setup
+
+Replace the 2.0 with 3.0 for gedit 3.
+
 === as root
 
    sudo cp *.xml /usr/share/gtksourceview-2.0/styles
@@ -16,6 +19,6 @@ Designed for usage with {these language specs}[https://github.com/janlelis/rubyb
 
 == Contribute
 
-Feel free to add your own styles that use the new ruby language spec :).
+Feel free to add your own styles that use the new ruby language spec! Also, please don't hesitate to submit slightly modified ones of the original ones ;)
 
 J-_-L
